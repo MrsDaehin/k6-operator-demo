@@ -4,7 +4,9 @@ metadata:
   name: k6-sample
 spec:
   parallelism: 2
+  cleanup: post
   script:
     configMap:
       name: load-test
       file: test.js
+  arguments: -o experimental-prometheus-rw

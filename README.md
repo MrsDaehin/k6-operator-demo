@@ -22,3 +22,6 @@ kubectl apply -f custom-resource.yml
 kubectl delete -f custom-resource.yml
 kubectl delete configmap load-test
 
+
+
+
